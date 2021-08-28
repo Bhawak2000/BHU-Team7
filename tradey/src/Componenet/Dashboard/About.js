@@ -12,7 +12,7 @@ const About = () => {
           <img src={aboutus} className="w-100 h-90 mx-auto img-fluid img-border rounded" alt="book"></img>
         </div>
         <div className="col-lg-6">
-          <h2 className="text-center mt-4">Why Users Love Tradey</h2>
+          <h2 className="text-center">Why Users Love Tradey</h2>
           <p className="text-center intro-font">
             Users can select the company from various companies present in our website and can see the stocks value and can check the prices.
             After selecting the Company Users should have ability to switch between OHLC, Colored

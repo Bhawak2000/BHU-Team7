@@ -20,9 +20,6 @@ const Header = () => {
             <li className="nav-item mx-3">
               <Link to="/companies" style={{ textDecoration: "none" }}><h4 className="nav-link active">Companies</h4></Link>
             </li>
-            <li className="nav-item mx-3">
-              <a href="#contact" style={{ textDecoration: "none" }}><h4 className="nav-link active">Contact</h4></a>
-            </li>
           </ul>
         </div>
       </div>

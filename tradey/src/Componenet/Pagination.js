@@ -2,6 +2,7 @@ import React from "react";
 import ReactPaginate from 'react-paginate';
 import AllCompanies from "./AllCompanies";
 
+
 const url = "https://jsonplaceholder.typicode.com/posts";
 
 class Pagination extends React.Component {

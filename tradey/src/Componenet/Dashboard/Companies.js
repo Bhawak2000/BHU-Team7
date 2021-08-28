@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 const Companies = () => {
   return (
@@ -7,29 +7,29 @@ const Companies = () => {
         <h2 className="text-center">Companies</h2>
         <div className="btn about-style btn-sm "></div>
       </div>
-      <div class="row row-cols-1 row-cols-md-4 m-4">
-        <div className="col">
-          <div class="card">
+      <div className="row row-cols-1 row-cols-md-4 ">
+        <div className="col my-2" onClick={console.log("hello")}>
+          <div className="card">
             <div className="card-body">
               <h5 className="card-title">Amazon</h5>
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col my-2">
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">Facebook</h5>
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col my-2">
           <div className="card ">
             <div className="card-body">
               <h5 className="card-title">Apple</h5>
             </div>
           </div>
         </div>
-        <div className="col">
+        <div className="col my-2">
           <div className="card ">
             <div className="card-body">
               <h5 className="card-title">Autodesk</h5>
@@ -37,7 +37,7 @@ const Companies = () => {
           </div>
         </div>
       </div>
-      <div className="text-center m-3"><button className="deg_btn text-center">See More</button></div>
+      <div className="text-center m-3"><Link to="/companies" style={{ textDecoration: "none" }}><button className="deg_btn text-center">See More</button></Link></div>
     </div>
   )
 

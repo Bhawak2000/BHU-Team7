@@ -1,5 +1,8 @@
 
 
+import { Link } from "react-router-dom"
+
+
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -12,13 +15,13 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarScroll">
           <ul className="navbar-nav  nav-items navbar-nav-scroll">
             <li className="nav-item mx-3">
-              <h4 className="nav-link active">Home</h4>
+              <Link to="/" style={{ textDecoration: "none" }}><h4 className="nav-link active">Home</h4></Link>
             </li>
             <li className="nav-item mx-3">
-              <h4 className="nav-link active">Companies</h4>
+              <Link to="/companies" style={{ textDecoration: "none" }}><h4 className="nav-link active">Companies</h4></Link>
             </li>
             <li className="nav-item mx-3">
-              <h4 className="nav-link active">Contact</h4>
+              <a href="#contact" style={{ textDecoration: "none" }}><h4 className="nav-link active">Contact</h4></a>
             </li>
           </ul>
         </div>

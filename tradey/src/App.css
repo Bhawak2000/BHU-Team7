@@ -10,6 +10,7 @@
   margin-left: 20%;
   font-size: 2.5rem;
 }
+
 .nav-items {
   padding-left: 25%;
 }
@@ -36,7 +37,7 @@
 /* carousel */
 
 .carousel-img {
-  height: 80vh !important;
+  height: 35em !important;
 }
 
 /* About */
@@ -64,9 +65,10 @@
 /*companies*/
 
 .card {
+  cursor: pointer;
   height: 40vh;
   position: relative;
-  background: chocolate url("./Componenet/Images/TradeIcon.png") no-repeat;
+  background: rgb(233, 134, 64) url("./Componenet/Images/TradeIcon.png") no-repeat;
   box-shadow: 5px 10px black;
 }
 .card-body {
@@ -89,6 +91,41 @@
 /* footer */
 
 footer {
+  position: relative;
   background-color: black !important;
   color: white;
+}
+/* pagination */
+.pagination {
+  margin: 35px auto;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  outline: none;
+}
+.pagination > .active > a{
+  background-color: rgb(101, 238, 101) ;
+  border-color: rgba(96, 132, 38, 0.9) ;
+  color: rgba(96, 132, 38, 0.9)
+}
+.pagination > li > a{
+  border:  2px solid rgba(96, 132, 38, 0.9);
+  border-radius: 50%;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: rgb(101, 238, 101) ;
+  border-color: 2px solid rgba(96, 132, 38, 0.9) ;
+  outline: none ;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: 5em;
+}
+.wrapper {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
 }

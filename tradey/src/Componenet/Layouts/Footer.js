@@ -4,7 +4,7 @@ import twitter from "../Images/twitter.svg"
 
 const Footer = () => {
   return (
-    <footer className="text-center">
+    <footer className="text-center sticky-bottom">
       <section className="d-flex justify-content-center justify-content-lg-between">
         <div className="mx-auto">
           <h3 style={{ display: "inline-block", padding: "1rem", color: "white" }}>Follow Us: </h3>

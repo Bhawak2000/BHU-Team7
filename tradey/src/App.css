@@ -1,38 +1,94 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+
+* {
+  font-family: "Libre Baskerville", serif;
+}
+
+/* header */
+
+.title {
+  margin-left: 20%;
+  font-size: 2.5rem;
+}
+.nav-items {
+  padding-left: 25%;
+}
+.nav-item :hover {
+  background-color: rgb(145, 124, 5);
+  border: solid 2px;
   text-align: center;
+  border-radius: 4rem;
+  cursor: pointer;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 800px) {
+  .title {
+    margin-left: 0;
+  }
+  .nav-items {
+    padding-left: 0;
+  }
+  .nav-items :hover {
+    text-align: left;
+    padding-left: 1%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* carousel */
+
+.carousel-img {
+  height: 80vh !important;
+}
+
+/* About */
+
+.intro-font {
+  font-size: 18px;
+  text-decoration: bold;
+  margin-top: 5%;
+}
+.img-border {
+  border: solid 2px white;
+}
+
+.about-style {
+  position: relative;
+  left: 50%;
+  width: 6rem;
+  background: #c6781b;
+  box-shadow: rgba(0, 0, 0, 0.25);
+  transform: skew(20deg);
+  cursor: none;
+  margin-bottom: 0.5rem;
+}
+
+/*companies*/
+
+.card {
+  height: 40vh;
+  position: relative;
+  background: chocolate url("./Componenet/Images/TradeIcon.png") no-repeat;
+  box-shadow: 5px 10px black;
+}
+.card-body {
+  color: whitesmoke;
+}
+
+.deg_btn {
+  display: inline-block;
+  text-decoration: none;
+  width: max-content;
+  height: 56px;
+  font-size: 24px;
+  background: #c6781b;
+  color: rgb(255, 255, 255);
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  cursor: pointer;
+}
+
+/* footer */
+
+footer {
+  background-color: black !important;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

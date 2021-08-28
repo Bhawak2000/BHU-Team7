@@ -4,7 +4,7 @@ const Companies = () => {
   return (
     <div className="container">
       <div className="row">
-        <h2 className="text-center">About</h2>
+        <h2 className="text-center">Companies</h2>
         <div className="btn about-style btn-sm "></div>
       </div>
       <div class="row row-cols-1 row-cols-md-4 m-4">

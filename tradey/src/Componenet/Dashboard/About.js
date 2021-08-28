@@ -14,14 +14,16 @@ const About = () => {
         <div className="col-lg-6">
           <h2 className="text-center mt-4">Why Users Love Tradey</h2>
           <p className="text-center intro-font">
-            In a world full of chaos, Wedley offers its vendors associated with various businesses of wedding industry a seamless platform to connect directly
-            with customers. Hence, bridging the gap between vendors and customers at zero subscription cost.
+            Users can select the company from various companies present in our website and can see the stocks value and can check the prices.
+            After selecting the Company Users should have ability to switch between OHLC, Colored
+            Bar and Vertex Line.
+            An OHLC chart shows the open, high, low, and close price for a given period it can be applied to any frame .
+            The vertical line represents the high and low for the period, while the line to the left marks the open price and the line to the right marks the closing price. This entire
+            structure is called a bar.
             <br />
-            We at Wedley believe our vendors should only pay us when they are fully satisfied by our service and any kind of
-            subscription based approach for vendors contradict our work ethics.
-            <br />
-            Our platform offers a vendor to showcase its services in variety of ways, hence making a direct connection with
-            the target audience.
+            Technical traders use a variety of stock charts to analyze market data in order to pinpoint optimum entry and exit points for their trades. By setting up efficient charts and workspaces,
+            you'll gain quick access to the data you need to make profitable trading decisions.
+            In Our website users can see tha stocks variation for different compaines with different types of graphs they can choose to their comfort .
           </p>
         </div>
       </div>
